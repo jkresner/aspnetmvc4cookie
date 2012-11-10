@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JK.mvc4cookie", "JK.mvc4cookie\JK.mvc4cookie.csproj", "{970DA80E-9542-4FDE-9E02-3A8E9DCF46C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JK.mvc4cookie.Tests", "JK.mvc4cookie.Tests\JK.mvc4cookie.Tests.csproj", "{C2948CF6-8421-46E4-A167-9EE3AE89D601}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{970DA80E-9542-4FDE-9E02-3A8E9DCF46C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{970DA80E-9542-4FDE-9E02-3A8E9DCF46C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{970DA80E-9542-4FDE-9E02-3A8E9DCF46C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{970DA80E-9542-4FDE-9E02-3A8E9DCF46C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2948CF6-8421-46E4-A167-9EE3AE89D601}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2948CF6-8421-46E4-A167-9EE3AE89D601}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2948CF6-8421-46E4-A167-9EE3AE89D601}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2948CF6-8421-46E4-A167-9EE3AE89D601}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
