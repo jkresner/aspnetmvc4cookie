@@ -25,11 +25,11 @@ namespace JK.mvc4cookie.Filters
     {
       public SimpleMembershipInitializer()
       {
-        Database.SetInitializer<UsersContext>(null);
+        Database.SetInitializer<mvc4cookieContext>(null);
 
         try
         {
-          using (var context = new UsersContext())
+          using (var context = new mvc4cookieContext())
           {
             if (!context.Database.Exists())
             {
@@ -38,7 +38,7 @@ namespace JK.mvc4cookie.Filters
             }
           }
 
-          WebSecurity.InitializeDatabaseConnection("DefaultConnection", "UserProfile", "UserId", "UserName", autoCreateTables: true);
+          WebSecurity.InitializeDatabaseConnection("mvc4cookie", "UserProfiles", "Id", "UserName", autoCreateTables: true);
         }
         catch (Exception ex)
         {
