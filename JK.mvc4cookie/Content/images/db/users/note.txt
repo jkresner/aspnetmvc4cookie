@@ -1,0 +1,3 @@
+﻿Here is where you would put app specific images conceptually linked to your database objects like users.
+
+Create another like /images/db/places for another object, or create sub directories like /images/db/users/background for different types of images associated with the entity
