@@ -1,0 +1,10 @@
+aspnetmvc4cookie
+===========================
+
+This project is a cookie cutter base project template for asp .net mvc 4 based on experience from starting many projects/code bases over the past few years.
+
+It is how I currently like to set up a new asp .net mvc project using mostly SPA single page application architecture with Mvc4 WebApi json rest services.
+
+The commits contain details about what I like (& don't like) parts of the default asp .net mvc 4 templates. 
+
+The order of the commits are important. They also demonstrate how I customize my projects based on experience and include bits of goodness from other places including Backbone.js / Twitter Bootstrap etc.
